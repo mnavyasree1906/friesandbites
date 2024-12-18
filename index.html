@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie's Delight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .food-item {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .food-item img {
+            max-width: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .food-item img:hover {
+            transform: scale(1.1);
+        }
+        .food-item h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .order-links a {
+            color: #ff6f61;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .order-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Foodie's Delight</h1>
+        <p>Delicious meals delivered to your door through Zomato and Swiggy!</p>
+    </header>
+
+    <nav>
+        <a href="#burgers">Burgers</a>
+        <a href="#pizza">Pizza</a>
+        <a href="#sandwiches">Sandwiches</a>
+        <a href="#fries">French Fries</a>
+    </nav>
+
+    <div class="container">
+        <div class="food-item" id="burgers">
+            <img src="https://via.placeholder.com/200?text=Burger" alt="Burger">
+            <h3>Juicy Burgers</h3>
+            <p>Freshly made burgers with the best ingredients.</p>
+        </div>
+
+        <div class="food-item" id="pizza">
+            <img src="https://via.placeholder.com/200?text=Pizza" alt="Pizza">
+            <h3>Cheesy Pizza</h3>
+            <p>Loaded with toppings and dripping with cheese.</p>
+        </div>
+
+        <div class="food-item" id="sandwiches">
+            <img src="https://via.placeholder.com/200?text=Sandwich" alt="Sandwich">
+            <h3>Fresh Sandwiches</h3>
+            <p>Perfect for a quick and healthy meal.</p>
+        </div>
+
+        <div class="food-item" id="fries">
+            <img src="https://via.placeholder.com/200?text=Fries" alt="French Fries">
+            <h3>Crispy French Fries</h3>
+            <p>Golden and crunchy, perfect for snacking!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Order now on:</p>
+        <div class="order-links">
+            <a href="https://www.zomato.com" target="_blank">Zomato</a> |
+            <a href="https://www.swiggy.com" target="_blank">Swiggy</a>
+        </div>
+        <p>&copy; 2024 Foodie's Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
